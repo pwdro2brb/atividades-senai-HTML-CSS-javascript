@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+ <html lang=”pt-br”>
+  <head>
+    <meta charset="UTF-8">
+	<title>Atributos no HTML</title>
+	<style>
+
+	body{
+		  background-color:rgb(155, 155, 190);
+		}
+	
+	tr,td,th{
+	border:2px solid black;
+	text-aling:center;
+	font-size:20.23px;
+	background-color:red;
+	}
+	
+	table{
+	aling:center;
+	border:3px solid black;
+	background-color:rgb(43, 203, 117);
+
+	}
+	th{
+	background-color:red;
+	}
+	h1{
+	font-size:30px;
+	text-align:center;
+	}
+    h2{
+    font-size:30px;
+    text-align:center;
+    }
+	</style>
+	
+	   </head>
+		<body>
+		  <h1>Relatório Técnico sobre os três tipos de CSS3: INLINE, INTERNO ou LOCAL, EXTERNO</h1>
+          <hr />
+<h2>Css Interno</h2>
+<p>O CSS interno ou incorporado requer que você adicione a tags {style} na seção {head} do seu documento HTML.<br />
+
+Este estilo de CSS é um método efetivo de estilizar uma única página. Contudo, usar esse estilo em múltiplas páginas pode consumir muito tempo, já que você precisa definir as regras CSS para cada página do seu site.</p>
+<h2>Css externo</h2>
+<p>Com o CSS externo, você vai linkar as páginas da internet com um arquivo .css externo, que você pode criar usando qualquer editor de texto no seu dispositivo (ex.: Notepad++).<br />
+
+Este tipo de CSS é um método mais eficiente, especialmente se você está estilizando um site grande. Ao editar um arquivo .css, você pode modificar um site inteiro de uma só vez.</p>
+<h2>Css Inline</h2>
+<p>O CSS inline é usado para dar estilo a um elemento HTML específico. Para este estilo de CSS você somente vai precisar adicionar o atributo style para cada tag HTML, sem usar os seletores.<br />
+
+Este tipo de CSS não é realmente recomendado, já que cada tag HTML precisa ser estilizada de maneira individual. Gerenciar o seu site pode se tornar uma tarefa bem difícil de você só usa o CSS inline.</p>
+	<hr />
+    <h1>COMPARATIVO ENTRE OS TRES TIPOS DE CSS3</h1>
+            <table>
+
+<thead>
+                <th>Tipo de CSS</th>
+                <th>Vantagens</th>
+				<th>Desvantagens</th>
+        </thead>
+<tbody>
+<th>Interno</th>
+<td>Você pode usar seletores de classe e ID nesta folha de estilo.<br/>Como você só adicionará o código no mesmo arquivo HTML, não será necessário fazer upload de vários arquivos.</td>
+<td>Adicionar o código ao documento HTML pode aumentar o tamanho da página e o tempo de carregamento.</td>
+        </tbody>
+<tbody>
+                <th>Externo</th>
+<td>Como o código CSS está em um documento separado, seus arquivos HTML terão uma estrutura mais limpa e serão menores em tamanho.<br />
+Você pode usar o mesmo arquivo .css para várias páginas.</td>
+<td>Suas páginas podem não ser renderizadas corretamente até que o CSS externo seja carregado.<br />
+Carregar ou vincular a vários arquivos CSS pode aumentar o tempo de download do seu site.</td>
+        </tbody>
+<tbody>
+                <th>inline</th>
+<td>Você pode inserir regras CSS de maneira fácil e rápida em uma página HTML. É por isso que esse método é útil para testar ou visualizar as alterações e realizar correções rápidas em seu site.<br />
+Você não precisa criar e carregar um documento separado como no estilo externo.</td>
+<td>
+Adicionar regras CSS a cada elemento HTML é demorado e torna sua estrutura HTML confusa.<br />
+Estilizar vários elementos pode afetar o tamanho da sua página e o tempo de download.</td>
+        </tbody>
+</table>

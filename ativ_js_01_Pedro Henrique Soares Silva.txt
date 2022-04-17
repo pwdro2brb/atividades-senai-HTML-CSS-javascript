@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+ <html lang=”pt-br”>
+  <head>
+    <meta charset="UTF-8">
+	<title>CRIPTOMOEDAS</title>
+	<style>
+	IMG{
+	float:left;
+	}
+	body{
+		  background-color:rgb(74, 150, 143);
+          aling:center;
+		}
+	.first{
+		font:20px Arial bold;
+		color:rgb(7, 40, 59);
+	       }
+	tr,td,th{
+	border:2px solid black;
+	text-aling:center;
+	font-size:20.23px;
+	background-color:rgb(43, 203, 117);
+	}
+	
+	table{
+	aling:center;
+	border:3px solid black;
+	background-color:rgb(43, 203, 117);
+
+	}
+	th{
+	background-color:(43, 203, 117);
+	}
+	h1,h2,h3{
+	font-size:30px;
+	font-style:Times New Roman;
+	}
+	</style>
+	
+	   </head>
+		<body>
+		  <h1>Moedas digitais</h1>
+
+		<hr />
+<table>
+<thead>
+<tr>
+<th>
+	    <p class="first">Quem acompanha o mercado, mesmo que de longe, certamente já foi surpreendido pelos altos e baixos de moedas digitais no noticiário.<br>
+	  A mais famosa é o Bitcoin, mas muitas outras também já têm relevância e também a simpatia dos investidores.</p>
+	    <p class="first">Genericamente, uma criptomoeda é um tipo de dinheiro – como outras moedas com as quais convivemos cotidianamente – com a diferença de ser totalmente digital.<br>
+	 Além disso, ela não emitida por nenhum governo (como é o caso do real ou do dólar, por exemplo).</p>
+	 <p class="first">Mais detalhes veja nessa página<a href="https://www.infomoney.com.br/guias/criptomoedas/">https://www.infomoney.com.br/guias/criptomoedas/<a></p>
+	</th>
+	</tr>
+	</Thead>
+	</table>
+	<hr />
+		<h2>Veja a seguir as 3 maiores criptomoedas</h2>
+	<table>
+	<thead>
+	<tr>
+	<th>Moeda</th>
+        <th>Preço</th>
+	<th>Representação artistica</th> 
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Bitcoin(BTC)</td>
+	<td>14:00/15/03/2022  R$201,876.15</td>
+        <td><img SRC="https://s2.coinmarketcap.com/static/img/coins/200x200/1.png"alt="Bitcoin"  width="200"></td>
+	</tr>
+	</tbody>
+	<tbody>
+	<tr>
+	<td>Ethereum(ETH)</td>
+	<td>14:00/08/03/2022 R$13,406.50</td>
+	<td><img SRC="https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png" alt="ethereum" width="200"></td>
+	</tr>
+	</tbody>
+	<tbody>
+	<tr>
+	<td>Theter(USDT)</td>
+	<td>14:00/08/03/2022 R$5.15</td>
+	<td><img SRC="https://s2.coinmarketcap.com/static/img/coins/200x200/825.png" alt="tether"  width="200"></td>
+	</tr>
+	</tbody>
+	</table>	
+	<hr />
+		 <h3>Complementação</h3>
+
+		<p class="first">Se você deseja ver <strong>todas</strong> as outrar criptomoedas e seus respectivos dados como valor vá para <a href="https://coinmarketcap.com/pt-br/">https://coinmarketcap.com/pt-br/<a>.<br /> Todas as informações foram tiradas do link acima.</p>
+<hr />
+<center>
+<h4>Para críticas, elogios e avaliações entre em contato preenchendo o formulário abaixo:</h4>
+	
+<table>
+<thead>
+<tr>
+<th>
+<hr />
+<form action="/" method="post" id="form-contato">
+
+
+<label for="Nome">Nome</label><br />
+     
+	 <input type="text" id="Nome" name="nome" placeholder="Escreva o seu nome aqui" maxlength="60"><br /><hr />
+     
+<label for="Cidade">Cidade</label><br />
+	 
+<input type="text" id="Cidade" name="Cidade" placeholder="Escreva a sua cidade aqui" maxlength="30"><br /><hr />
+
+<label for="Estado">Estado</label><br />
+	 
+     <input type="text" id="Estado" name="Estado" placeholder="Escreva o  seu estado aqui" maxlength="25"><br /><hr />
+
+<label for="E-mail">E-mail</label><br />
+
+<input type="text" id="E-mail" name="E-mail" placeholder="Escreva o seu E-mail aqui" maxlength="100"><br /><hr />
+
+<label for="Assunto">Assunto</label><br />
+
+<input type="text" id="Assunto" name="Assunto" placeholder="Escreva o assunto aqui" maxlength="50"><br /><hr />
+
+<label for="Mensagem">Mensagem</label><br />
+
+<input type="text" id="Mensagem" name="Mensagem" placeholder="Escreva a sua mensagem aqui"><br /><hr />
+
+<button type="submit">Enviar</button>
+<p></p>
+</th>
+</tr>
+</thead>
+</table>
+</center>
+<hr />
+<a href="index.html">contato</a>
+<script>
+    let form = document.getElementById('form-contato');
+</script>
+	</body>
+
+    
+  
+    
+    
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<style>
+body{
+background-color:RGB(6, 170, 185);
+}
+</style>
+<!— Cabeça —>
+  <head>
+<meta charset="UTF-8" />
+  <title> Exercício aula 8|table </title>
+</head>
+<body>
+
+
+  <center>
+  <h1>Exercício 1</h1>
+  <form>
+<input type="button" value="OK">
+</form>
+
+<hr />
+
+
+<h1>Exercício 2</h1>
+<form>
+<input type="radio" name="fav_language" value="Bom"> Bom
+<input type="radio" name="fav_language" value="dia"> Ruim
+</form>
+<hr />
+<h1>Exercício 3 </h1>
+<form action="/action_page.php">Nome: <input type="text" name="Nome">
+<input type="submit">
+</form>
+<hr />
+<h1>Exercício 4 </h1>
+<form action="/action_page.php" method="post"> Nome: <input type="text" name="Nome">
+<input type="submit">
+</form>
+<hr />
+<h1>Exercício 5</h1>
+<form>
+<select name="cars">
+</select>
+</form>
+<hr />
+<h1>Exercício 6</h1>
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="ford">Ford</option>
+</select>
+</form>
+<hr />
+<h1>Exercício 7</h1>
+<form>
+<textarea name="note"></textarea>
+</form>
+<hr />
+<h1>Exercício 8</h1>
+<form>
+<input type="text" name="username">
+</form>
+<hr />
+<h1>Exercício 9</h1>
+<form action="/action_page.php">
+<input type="text" name="username">
+<input type="submit" value="Submit Form">
+</form>
+<hr />
+<h1>Exercício 10</h1>
+<form action="/action_page.php">
+  Favorite color:<br>
+  Blue
+<input value="blue" type="radio" name="color">  <br>
+ Red
+ <input value="red" type="radio" name="color"><br> 
+ <input type="submit">
+</form>
+<hr />
+<h1>Exercício 11</h1>
+<form action="/action_page.php">
+<button>Click aqui</button>
+</form>
+<hr />
+<h1>Exercício 12</h1>
+<form action="/action_page.php">
+<input type="number" min="1" max="5">
+</form>
+<hr />
+<h1>Exercício 13</h1>
+<form action="/action_page.php">
+<input type="text" placeholder="Seu nome aqui">
+</form>
+<hr />
+<h1>Exercício 14</h1>
+<form action="/action_page.php">
+<input type="text" disabled>
+</form>
+<hr />
+<h1>Exercício 15</h1>
+<form action="/action_page.php">
+<input type="text" maxlength="40">
+</form>
+<hr />
+<h1>Exercício 16</h1>
+<form action="/action_page.php">
+<input type="text" readonly>
+</form>
+<hr />
+</body>
+</html>
